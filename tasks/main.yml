@@ -64,4 +64,3 @@
   developer_mode:
     state: enable
   become: true
-
