@@ -1,7 +1,7 @@
 # Ansible Role: Xcode
 
 ![GPL-3.0 licensed][badge-license]
-[![Build Status](https://github.com/macstadium/ansible-role-xcode/workflows/Publish%20role/badge.svg?branch=master)](https://github.com/macstadium/ansible-role-xcode/actions?query=workflow%3A%22Publish+role%22+branch%3Amaster)
+[![Build Status](https://github.com/kenhuang/ansible-role-xcode/workflows/Publish%20role/badge.svg?branch=master)](https://github.com/kenhuang/ansible-role-xcode/actions?query=workflow%3A%22Publish+role%22+branch%3Amaster)
 
 
 Installs [Xcode][xcode] on MacOS according to supplied variables.

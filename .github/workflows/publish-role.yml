@@ -27,18 +27,18 @@ jobs:
       - name: Install dependencies
         run: |
           set -eux
-          
+
           pip install ansible
           pip install yamllint
           pip install ansible-lint
-          
+
       - name: Run yamllint
         run: yamllint .
-        
+
       - name: Run ansible lint
         working-directory: tests
         run: ansible-lint site.yml -c ../.ansible-lint
-        
+
       - name: Verify syntax
         working-directory: tests
         run: ansible-playbook site.yml --syntax-check
@@ -54,4 +54,4 @@ jobs:
         uses: robertdebock/galaxy-action@1.1.0
         with:
           galaxy_api_key: ${{ secrets.GALAXY_API_KEY }}
-          path: macstadium
+          path: kenhuang
