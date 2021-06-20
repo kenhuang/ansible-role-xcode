@@ -1,5 +1,5 @@
+.idea
 *.py[co]
 *.retry
 .vscode
 .DS_Store
-.idea
